@@ -1,1 +1,17 @@
-
+{
+  "name": "civix-bot",
+  "version": "1.0.0",
+  "description": "Civix moderation & verification bot (Discord.js v14)",
+  "main": "index.js",
+  "engines": { "node": "18.x" },
+  "scripts": {
+    "start": "node index.js",
+    "deploy": "node deploy-commands.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.0",
+    "dotenv": "^16.3.0",
+    "sqlite3": "^5.1.6",
+    "ms": "^2.1.3"
+  }
+}
